@@ -5,6 +5,7 @@ import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } fr
 const App = () => {
   return (
     <BrowserRouter
+      basename="/Daniel_Portfolio_CV"
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true,
