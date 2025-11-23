@@ -19,14 +19,14 @@ import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
 
 // Import tech logos
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
+import labview from "./tech/labview.svg";
+import vivado from "./tech/vivado.svg";
+import cadence from "./tech/cadence.svg";
+import proteus from "./tech/proteus.svg";
+import linux from "./tech/linux.svg";
+import raspberrypi from "./tech/raspberrypi.svg";
+import arduino from "./tech/arduino.svg";
+import esp32 from "./tech/esp32.svg";
 
 // Import common assets
 import logo from "./logo.svg";
@@ -43,14 +43,14 @@ export {
   cpp,
   systemverilog,
   github,
-  css,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  tailwind,
-  threejs,
+  labview,
+  vivado,
+  cadence,
+  proteus,
+  linux,
+  raspberrypi,
+  arduino,
+  esp32,
   weatherpedia,
   termpw,
   payloadmaster,
