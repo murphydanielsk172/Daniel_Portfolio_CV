@@ -51,7 +51,7 @@ const About = () => {
         innovation and collaboration drive success.
       </motion.p>
 
-      <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

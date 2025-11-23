@@ -7,7 +7,6 @@ import eduskill from "./company/eduskill.png";
 import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
-import matlab from "./tech-stack/matlab.svg";
 import systemverilog from "./tech-stack/systemverilog.svg";
 
 // Import project images
@@ -40,7 +39,6 @@ export {
   python,
   c,
   cpp,
-  matlab,
   systemverilog,
   github,
   css,
