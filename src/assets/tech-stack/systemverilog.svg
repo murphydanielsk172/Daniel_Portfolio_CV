@@ -1,0 +1,23 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SystemVerilog logo</title>
+  <desc id="desc">Stylized SV monogram inside concentric signal orbits</desc>
+  <defs>
+    <linearGradient id="sv-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2B7BFF" />
+      <stop offset="100%" stop-color="#0F2A6C" />
+    </linearGradient>
+    <linearGradient id="sv-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#89C5FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#1B4CB2" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0B122B" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="#0B122B" stroke="url(#sv-glow)" stroke-width="8" filter="url(#shadow)" />
+  <path d="M44 104C74 54 182 46 212 104" stroke="url(#sv-glow)" stroke-width="12" stroke-linecap="round" />
+  <path d="M44 152C74 202 182 210 212 152" stroke="url(#sv-glow)" stroke-width="12" stroke-linecap="round" />
+  <path d="M78 82C138 58 188 62 214 86" stroke="#0C214F" stroke-width="10" stroke-linecap="round" opacity="0.4" />
+  <path d="M40 170C72 208 188 218 214 186" stroke="#0C214F" stroke-width="10" stroke-linecap="round" opacity="0.4" />
+  <path d="M112 184L78 176L118 86H146L170 150L184 118H212L172 184H144L122 128L112 160L140 166L132 184H112Z" fill="url(#sv-blue)" />
+</svg>
