@@ -1,7 +1,8 @@
 import {
   c,
   python,
-  java,
+  systemverilog,
+  matlab,
   cpp,
   javascript,
   html,
@@ -41,7 +42,8 @@ export const services = [
   { title: "C", icon: c },
   { title: "C++", icon: cpp },
   { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "SystemVerilog", icon: systemverilog },
+  { title: "MATLAB", icon: matlab },
 ];
 
 export const technologies = [
