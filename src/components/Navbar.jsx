@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { close, logo, menu } from '../assets';
+import { close, menu, profile } from '../assets';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
 
@@ -61,7 +61,7 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="Daniel Murphy" className="w-9 h-9 object-cover rounded-full" />
+            <img src={profile} alt="Daniel Murphy" className="w-9 h-9 object-cover rounded-full" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">Daniel Murphy</p>
           </Link>
           {renderNavLinks(false)}
