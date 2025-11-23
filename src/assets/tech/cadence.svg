@@ -1,0 +1,9 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cadence OrCAD and Virtuoso logo">
+  <rect x="16" y="16" width="168" height="168" rx="24" fill="#1b1b1b" />
+  <rect x="32" y="48" width="136" height="32" rx="12" fill="#f94144" opacity="0.9" />
+  <rect x="32" y="88" width="136" height="32" rx="12" fill="#1d9bf0" opacity="0.9" />
+  <rect x="32" y="128" width="136" height="32" rx="12" fill="#2ec4b6" opacity="0.9" />
+  <text x="100" y="72" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#ffffff">OrCAD</text>
+  <text x="100" y="112" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#ffffff">Virtuoso</text>
+  <text x="100" y="152" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="18" font-weight="700" fill="#ffffff">Cadence</text>
+</svg>

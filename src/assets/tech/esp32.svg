@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ESP32 logo">
+  <rect x="18" y="18" width="164" height="164" rx="24" fill="#111827" />
+  <rect x="54" y="38" width="92" height="124" rx="12" fill="#f97316" />
+  <rect x="70" y="54" width="60" height="60" rx="10" fill="#fff7ed" />
+  <rect x="88" y="120" width="24" height="20" rx="6" fill="#111827" />
+  <rect x="62" y="48" width="12" height="8" rx="2" fill="#111827" />
+  <rect x="126" y="48" width="12" height="8" rx="2" fill="#111827" />
+  <rect x="62" y="146" width="12" height="8" rx="2" fill="#111827" />
+  <rect x="126" y="146" width="12" height="8" rx="2" fill="#111827" />
+  <circle cx="100" cy="84" r="14" fill="#0f172a" />
+  <circle cx="100" cy="84" r="6" fill="#f97316" />
+  <text x="100" y="182" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f97316">ESP32</text>
+</svg>
