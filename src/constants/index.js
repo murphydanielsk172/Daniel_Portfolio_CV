@@ -47,9 +47,9 @@ export const services = [
 
 export const technologies = [
   { name: "LabVIEW", icon: labview },
-  { name: "Vivado", icon: vivado, decalScale: 0.85 },
-  { name: "Cadence OrCAD / Virtuoso", icon: cadence, decalScale: 0.8 },
-  { name: "Proteus", icon: proteus, decalScale: 0.82 },
+  { name: "Vivado", icon: vivado },
+  { name: "Cadence OrCAD / Virtuoso", icon: cadence },
+  { name: "Proteus", icon: proteus },
   { name: "Linux", icon: linux },
   { name: "Raspberry Pi", icon: raspberrypi },
   { name: "Arduino", icon: arduino },
