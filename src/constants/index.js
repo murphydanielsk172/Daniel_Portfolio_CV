@@ -58,17 +58,17 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "Gate Automation & Security Systems Technician (Seasonal)",
+    title: "Gate Automation & Security Systems Technician",
     company_name: "No Shorts Automation",
     icon: gateautomation,
     iconBg: "#161329",
-    date: "Summers 2022 – Present",
+    date: "Summer 2019 – Summer 2025",
     points: [
       "Install and service gate automation, CCTV, alarms, access control, intercoms, and fog deterrent systems across residential, school, industrial, and business sites.",
-      "Deliver full-stack field work: plan device layouts, route power/data, wire and configure control panels and access devices, pull and terminate cabling, and program controllers for site-specific requirements.",
+      "Deliver full-stack field work: plan device layouts, design custom integration systems, route power/data, wire and configure control panels and access devices, pull and terminate cabling, and program controllers for site-specific requirements.",
       "Diagnose and resolve electrical and digital faults (moisture ingress, network drops, misconfigured panels), applying electronics troubleshooting to restore reliable operation.",
       "Commission systems through calibration, verification, and client walkthroughs, documenting handover details and demonstrating safe operation.",
-      "Coordinate with electricians and other trades, assisting with supervised electrical tasks (e.g., panel installs, lighting) while keeping installations safe and compliant with site standards.",
+      "Coordinate with electricians and other trades, assisting with supervised electrical tasks (e.g., general electrical, consumer units, lighting, etc) while keeping installations safe and compliant with site standards and safety practices.",
     ],
   },
 ];
