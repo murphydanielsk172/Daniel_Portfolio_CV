@@ -7,7 +7,7 @@ import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="w-full">
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
-        <img src={icon} alt="web-development" className="w-16 h-16 object-contain" loading="lazy" />
+        <img src={icon} alt={`${title} icon`} className="w-16 h-16 object-contain" loading="lazy" />
 
         <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
       </div>
@@ -40,14 +40,18 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        As a graduate with a 2:1 Honours degree in Electronic Engineering, I have developed strong
+        proficiency in Python, C, C++, MATLAB, and SystemVerilog, alongside a solid understanding of
+        Linux-based systems. I have gained hands-on experience with development and hardware
+        platforms including Arduino, Raspberry Pi, ESP32, and FPGA, providing valuable insight into
+        software–hardware integration. My expertise includes AI and machine learning solutions,
+        digital systems, circuit design, and microelectronics. For my final-year research project, I
+        applied AI to a Mars rover for obstacle detection and evasion, using a stereo depth camera
+        and a CNN USB accelerator. I thrive in dynamic, fast-paced engineering environments where
+        innovation and collaboration drive success.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
