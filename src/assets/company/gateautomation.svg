@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Gate automation and security icon</title>
+  <desc>A simple padlock with circuit lines symbolizing secure automation work.</desc>
+  <defs>
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6dd5ed" />
+      <stop offset="100%" stop-color="#2193b0" />
+    </linearGradient>
+  </defs>
+  <rect x="20" y="46" width="88" height="70" rx="12" fill="#0f172a" stroke="#94a3b8" stroke-width="4" />
+  <path d="M44 46v-8c0-12.15 9.85-22 22-22s22 9.85 22 22v8" fill="none" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" />
+  <rect x="38" y="58" width="52" height="46" rx="8" fill="url(#lockGradient)" stroke="#e2e8f0" stroke-width="4" />
+  <circle cx="64" cy="80" r="10" fill="#0f172a" stroke="#e2e8f0" stroke-width="4" />
+  <rect x="60" y="80" width="8" height="18" rx="4" fill="#e2e8f0" />
+  <path d="M14 70h14m72 0h14M18 90h10m72 0h10" stroke="#22c55e" stroke-width="4" stroke-linecap="round" />
+</svg>

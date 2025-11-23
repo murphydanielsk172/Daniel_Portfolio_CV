@@ -2,6 +2,7 @@
 import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import gateautomation from "./company/gateautomation.svg";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -61,4 +62,5 @@ export {
   close,
   eduskill,
   profile,
+  gateautomation,
 };
