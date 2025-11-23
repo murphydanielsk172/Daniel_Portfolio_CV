@@ -1,0 +1,5 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M34 94C60 54 196 46 224 94" stroke="#1C4E9C" stroke-width="12" stroke-linecap="round"/>
+  <path d="M34 162C60 202 196 210 224 162" stroke="#1C4E9C" stroke-width="12" stroke-linecap="round"/>
+  <text x="50%" y="53%" text-anchor="middle" dominant-baseline="middle" fill="#1C4E9C" font-family="'Times New Roman', serif" font-size="120" font-weight="700">SV</text>
+</svg>
