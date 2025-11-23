@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Daniel Murphy profile</title>
+  <desc>Stylized avatar placeholder for Daniel Murphy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff" />
+      <stop offset="100%" stop-color="#d7def5" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)" />
+  <circle cx="64" cy="50" r="28" fill="#f9e6d7" />
+  <circle cx="52" cy="46" r="4" fill="#2f3a56" />
+  <circle cx="76" cy="46" r="4" fill="#2f3a56" />
+  <path d="M48 34c6-10 26-10 32 0" stroke="#7c6b5f" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M46 65c7 8 29 8 36 0" stroke="#e0c2aa" stroke-width="6" stroke-linecap="round" fill="none" />
+  <rect x="36" y="74" width="56" height="34" rx="14" fill="#f7f9fd" stroke="#c6d0ea" stroke-width="4" />
+  <text x="64" y="102" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2f3a56" text-anchor="middle">DM</text>
+</svg>
