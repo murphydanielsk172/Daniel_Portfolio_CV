@@ -4,9 +4,9 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const renderTechnologies = () => {
-  return technologies.map(({ name, icon }) => (
+  return technologies.map(({ name, icon, decalScale }) => (
     <div className="w-28 h-28" key={name}>
-      <BallCanvas icon={icon} />
+      <BallCanvas icon={icon} decalScale={decalScale} />
     </div>
   ));
 };
