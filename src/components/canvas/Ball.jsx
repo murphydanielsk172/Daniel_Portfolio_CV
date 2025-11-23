@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-const Ball = React.memo(({ iconUrl }) => {
+const Ball = React.memo(({ iconUrl, decalScale = 1 }) => {
   const [decal] = useTexture([iconUrl]);
 
   return (
@@ -13,18 +13,24 @@ const Ball = React.memo(({ iconUrl }) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial color='#fff8eb' polygonOffset polygonOffsetFactor={-5} flatShading />
-        <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} scale={1} map={decal} flatShading />
+        <Decal
+          position={[0, 0, 1]}
+          rotation={[2 * Math.PI, 0, 6.25]}
+          scale={decalScale}
+          map={decal}
+          flatShading
+        />
       </mesh>
     </Float>
   );
 });
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, decalScale }) => {
   return (
     <Canvas frameloop="demand" dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Ball iconUrl={icon} />
+        <Ball iconUrl={icon} decalScale={decalScale} />
       </Suspense>
       <Preload all />
     </Canvas>
