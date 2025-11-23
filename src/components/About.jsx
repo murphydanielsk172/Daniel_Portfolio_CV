@@ -40,11 +40,15 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        As a graduate with a 2:1 Honours degree in Electronic Engineering, I have developed strong
+        proficiency in Python, C, C++, MATLAB, and SystemVerilog, alongside a solid understanding of
+        Linux-based systems. I have gained hands-on experience with development and hardware
+        platforms including Arduino, Raspberry Pi, ESP32, and FPGA, providing valuable insight into
+        software–hardware integration. My expertise includes AI and machine learning solutions,
+        digital systems, circuit design, and microelectronics. For my final-year research project, I
+        applied AI to a Mars rover for obstacle detection and evasion, using a stereo depth camera
+        and a CNN USB accelerator. I thrive in dynamic, fast-paced engineering environments where
+        innovation and collaboration drive success.
       </motion.p>
 
       <div className="mt-20 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
