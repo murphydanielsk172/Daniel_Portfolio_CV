@@ -71,7 +71,7 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "IoT-Enabled Bicycle Speedometer (3rd-Year Project)",
+    name: "IoT-Enabled Bicycle Speedometer",
     description:
       "Developed an IoT-connected bicycle speedometer for real-time speed tracking and journey distance visualization. Designed an interactive interface to display live data and evaluated a mechanical reed switch versus an electronic hall-effect sensor for accurate speed measurement.",
     image: weatherpedia,
