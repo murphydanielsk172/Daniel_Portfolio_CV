@@ -74,11 +74,6 @@ export const projects = [
     name: "IoT-Enabled Bicycle Speedometer (3rd-Year Project)",
     description:
       "Developed an IoT-connected bicycle speedometer for real-time speed tracking and journey distance visualization. Designed an interactive interface to display live data and evaluated a mechanical reed switch versus an electronic hall-effect sensor for accurate speed measurement.",
-    tags: [
-      { name: "IoT", color: "blue-text-gradient" },
-      { name: "Embedded Systems", color: "green-text-gradient" },
-      { name: "Sensors", color: "pink-text-gradient" },
-    ],
     image: weatherpedia,
     source_code_link: "https://github.com/danielmurphy",
   },
@@ -86,11 +81,6 @@ export const projects = [
     name: "Mars Rover AI and Machine Learning Navigation System",
     description:
       "Built a depth-camera navigation system using a CNN USB accelerator for real-time obstacle detection and avoidance. Implemented multi-sensor fusion with filtering and PID control to improve pose estimation and waypoint navigation while contributing to the ERC rover project within a multidisciplinary team.",
-    tags: [
-      { name: "Computer Vision", color: "blue-text-gradient" },
-      { name: "Robotics", color: "green-text-gradient" },
-      { name: "PID Control", color: "pink-text-gradient" },
-    ],
     image: termpw,
     source_code_link: "https://github.com/danielmurphy",
   },
@@ -98,11 +88,6 @@ export const projects = [
     name: "Rover Mk2 (Ongoing)",
     description:
       "Current iteration focused on analyzing the original rover, addressing issues, and enhancing performance while experimenting with new concepts and design improvements.",
-    tags: [
-      { name: "Robotics", color: "blue-text-gradient" },
-      { name: "Systems Analysis", color: "green-text-gradient" },
-      { name: "R&D", color: "pink-text-gradient" },
-    ],
     image: mhft,
     source_code_link: "https://github.com/danielmurphy",
   },
