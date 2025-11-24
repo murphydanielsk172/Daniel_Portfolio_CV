@@ -88,7 +88,6 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Daniel Murphy",
           from_email: form.email,
-          reply_to: form.email,
           to_email: toEmail,
           message: form.message,
         },
