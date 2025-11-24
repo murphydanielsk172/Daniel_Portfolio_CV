@@ -13,12 +13,8 @@ import {
   esp32,
   weatherpedia,
   termpw,
-  payloadmaster,
   mhft,
-  sketcher,
   mathwork,
-  CompileVortex,
-  eduskill,
   gateautomation,
 } from "../assets";
 
@@ -75,76 +71,21 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "IoT-Enabled Bicycle Speedometer (3rd-Year Project)",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
-    ],
+      "Developed an IoT-connected bicycle speedometer for real-time speed tracking and journey distance visualization. Designed an interactive interface to display live data and evaluated a mechanical reed switch versus an electronic hall-effect sensor for accurate speed measurement.",
     image: weatherpedia,
-    source_code_link: "https://github.com/danielmurphy/WeatherPedia",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Mars Rover AI and Machine Learning Navigation System",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
-    tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
-    ],
+      "Built a depth-camera navigation system using a CNN USB accelerator for real-time obstacle detection and avoidance. Implemented multi-sensor fusion with filtering and PID control to improve pose estimation and waypoint navigation while contributing to the ERC rover project within a multidisciplinary team.",
     image: termpw,
-    source_code_link: "https://github.com/danielmurphy/portfolio",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Rover Mk2 (Ongoing)",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
-    tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
-    ],
+      "Current iteration focused on analyzing the original rover, addressing issues, and enhancing performance while experimenting with new concepts and design improvements.",
     image: mhft,
-    source_code_link:
-      "https://github.com/danielmurphy/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/danielmurphy/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/danielmurphy/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/danielmurphy/Image_to_Pencil_Sketch_App",
   },
 ];
