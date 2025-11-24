@@ -3,8 +3,18 @@ import { Canvas } from "@react-three/fiber";
 import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
+const normalizeDecalScale = (decalScale) => {
+  if (Array.isArray(decalScale)) {
+    const [x = 1, y = 1, z = 1] = decalScale;
+    return [x, y, z];
+  }
+
+  return [decalScale, decalScale, decalScale];
+};
+
 const Ball = React.memo(({ iconUrl, decalScale = 1 }) => {
   const [decal] = useTexture([iconUrl]);
+  const decalScaleVector = normalizeDecalScale(decalScale);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -16,7 +26,7 @@ const Ball = React.memo(({ iconUrl, decalScale = 1 }) => {
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={decalScale}
+          scale={decalScaleVector}
           map={decal}
           flatShading
         />
