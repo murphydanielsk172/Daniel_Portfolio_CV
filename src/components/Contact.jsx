@@ -85,11 +85,12 @@ const Contact = () => {
         serviceId,
         templateId,
         {
-          from_name: form.name,
-          to_name: "Daniel Murphy",
-          from_email: form.email,
-          to_email: toEmail,
+          // Map form fields to EmailJS template variables
+          email: form.email,
+          subject: form.name,
           message: form.message,
+          to_name: "Daniel Murphy",
+          to_email: toEmail,
         },
         publicKey
       )
