@@ -8,6 +8,14 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import "../index.css";
 
+const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || "service_u0adodl";
+const templateId =
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "template_m7vv8he";
+const publicKey =
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "zZFJ8xQs9akvGwz08";
+const toEmail =
+  import.meta.env.VITE_EMAILJS_TO_EMAIL || "murphyskdaniel172@gmail.com";
+
 const InputField = ({ label, value, onChange, placeholder, name, type }) => (
   <label className="flex flex-col">
     <span className="text-white font-medium mb-4">{label}</span>
@@ -63,20 +71,28 @@ const Contact = () => {
       return;
     }
 
+    if (!serviceId || !templateId || !publicKey) {
+      setConfirmation(
+        "Email service is not configured. Please set the EmailJS environment variables."
+      );
+      return;
+    }
+
     setLoading(true);
 
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        serviceId,
+        templateId,
         {
           from_name: form.name,
           to_name: "Daniel Murphy",
           from_email: form.email,
-          to_email: "danielmurphy@gmail.com",
+          reply_to: form.email,
+          to_email: toEmail,
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        publicKey
       )
       .then(
         () => {
