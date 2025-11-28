@@ -17,6 +17,9 @@ import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
+import IoT from "./projects/IoT.jpeg";
+import Mk2 from "./projects/Mk2.jpeg";
+import OG_Rover from "./projects/OG_Rover.jpeg";
 
 // Import tech logos
 import labview from "./tech/labview.svg";
@@ -57,6 +60,9 @@ export {
   mhft,
   sketcher,
   CompileVortex,
+  IoT,
+  Mk2,
+  OG_Rover,
   logo,
   menu,
   close,
