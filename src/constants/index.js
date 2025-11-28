@@ -75,20 +75,17 @@ export const projects = [
     description:
       "Developed an IoT-connected bicycle speedometer for real-time speed tracking and journey distance visualization. Designed an interactive interface to display live data and evaluated a mechanical reed switch versus an electronic hall-effect sensor for accurate speed measurement.",
     image: IoT,
-    source_code_link: "https://github.com/danielmurphy",
   },
   {
     name: "Mars Rover AI and Machine Learning Navigation System",
     description:
       "Built a depth-camera navigation system using a CNN USB accelerator for real-time obstacle detection and avoidance. Implemented multi-sensor fusion with filtering and PID control to improve pose estimation and waypoint navigation while contributing to the ERC rover project within a multidisciplinary team.",
     image: OG_Rover,
-    source_code_link: "https://github.com/danielmurphy",
   },
   {
     name: "Rover Mk2 (Ongoing)",
     description:
       "Current iteration focused on analyzing the original rover, addressing issues, and enhancing performance while experimenting with new concepts and design improvements.",
     image: Mk2,
-    source_code_link: "https://github.com/danielmurphy",
   },
 ];
